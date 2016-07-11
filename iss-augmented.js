@@ -45,7 +45,7 @@ var a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
 var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
 var d = R * c;
-console.log(d);
+console.log("Distance between iss and your location in metres is :" +d);
 
 }
 
