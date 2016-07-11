@@ -11,7 +11,7 @@
  list of guesses.*/
  
  
-var fs = require('fs'); 
+
 var prompt = require('prompt'); 
 
 var randomNumber = Math.floor(Math.random() * 100);
@@ -35,6 +35,7 @@ prompt.get('enterGuess', function(err, answers) {
         counter--;
         guessNumber();
     }
+    else {console.log("oops guesses over")}
     }
 });
 
